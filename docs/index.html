@@ -5,7 +5,7 @@
       body {
         padding-top: 40px;
         padding-bottom: 40px;
-        background-color: aqua;
+        background-color: grey;
       }
 
       .banner-image {
@@ -13,17 +13,31 @@
         height: 128px;
         object-fit: cover;
         border-radius: 128px;
+        align-items: center;
       }
 
       .link {
         background-color: grey;
         align-items: center;
+        display: flex;
       }
 
       .link a {
         color: black;
         text-decoration: darkgrey;
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
       }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+      }
+
+      .
     </style>
 
     <div>
@@ -33,43 +47,44 @@
 
   <body>
     
+    <div class="items link">
+      <div>
+      UCHICAGO SWIMMING AND DIVING
+      </div>
 
-    <div>
-    UCHICAGO SWIMMING AND DIVING
+      <div class="link">
+        <img src="roster.png" class="banner-image link" alt="Men's Roster">
+        <a href="https://athletics.uchicago.edu/sports/mswimdive/2022-23/roster?view=list" target="_blank" "> Men's Roster
+        </a>
+      </div>
+
+      <div class="link">
+        <img src="roster.png" class="banner-image link" alt="Women's Roster">
+        <a href="https://athletics.uchicago.edu/sports/wswimdive/2022-23/roster" target="_blank"> Women's Roster
+        </a>
+      </div>
+
+      <div class="link">
+        <img src="schedule.png" class="banner-image link" alt="Men's Schedule">
+        <a href="https://athletics.uchicago.edu/sports/mswimdive/2022-23/schedule" target="_blank"> Men's Schedule
+        </a>
+      </div>
+
+
+      <div class="link">
+        <img src="schedule.png" class="banner-image link" alt="Women's Schedule">
+        <a href="https://athletics.uchicago.edu/sports/wswimdive/2022-23/schedule" target="_blank"> Women's Schedule
+        </a>
+
+      </div>
+
+      <div class="link">
+        <img src="recruit.png" class="banner-image link" alt="Recruiting Form">
+        <a href="https://www.frontrush.com/FR_Web_App/Player/PlayerSubmit.aspx?sid=MTIyNTk=-mbf/rWe+Ot4=&ptype=recruit" target="_blank"> Recruiting  Form
+        </a>
+      </div>
     </div>
 
-    <div class="Social Icons link"></div>
-      <a href="https://athletics.uchicago.edu/sports/mswimdive/2022-23/roster?view=list" target="_blank"> Men's Roster
-      </a>
-
-      <a href="https://athletics.uchicago.edu/sports/wswimdive/2022-23/roster" target="_blank"> Women's Roster
-      </a>
-
-      <a href="https://www.frontrush.com/FR_Web_App/Player/PlayerSubmit.aspx?sid=MTIyNTk=-mbf/rWe+Ot4=&ptype=recruit" target="_blank"> Recruiting  Form
-      </a>
-
-      <a href="https://athletics.uchicago.edu/sports/mswimdive/2022-23/schedule" target="_blank"> Men's Scedule
-      </a>
-
-      <a href="https://athletics.uchicago.edu/sports/wswimdive/2022-23/schedule" target="_blank"> Women's Scedule
-      </a>
-
-    </div>
-
-    <div class="link">
-      <img src="roster.png" alt="Men's Roster">
-    </div>
-
-    <div class="link">
-      <img src="roster.png" alt="Women's Roster">
-    </div>
-
-    <div class="link">
-      <img src="schedule.png" alt="Meet Schedule">
-    </div>
-
-    <div class="link">
-      <img src="recruit.png" alt="Recruiting Form">
-    </div>
   </body>
+
 </html>
