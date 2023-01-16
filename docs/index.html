@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <style>
-
+      * {
+        border: thin red solid
+      }
       body {
         padding-top: 40px;
         padding-bottom: 40px;
         background-color: grey;
+        display: flex;
+        justify-content: center;
       }
 
       .banner-image {
@@ -15,7 +19,6 @@
         height: 128px;
         object-fit: cover;
         border-radius: 128px;
-        align-items: center;
       }
 
       .thumbnail {
@@ -52,18 +55,23 @@
         display: flex;
         justify-content: center;
       }
-      .
+      
+      .name {
+        display: flex;
+        justify-content: center;
+      }
     </style>
-
-    <div class="banner">
-      <img src="logo.png" alt="Uchicago Swim and Dive" class="banner-image">
-    </div>
   </head>
 
   <body>
     
     <div class="items">
+
       <div class="banner">
+        <img src="logo.png" alt="Uchicago Swim and Dive" class="banner-image">
+      </div>
+
+      <div class="name">
       UCHICAGO SWIMMING AND DIVING
       </div>
 
